@@ -20,9 +20,8 @@
         <value type="int" value="4"/>
         <value type="int" value="3"/>
         <value type="int" value="6"/>
-        <value type="int" value="10"/>
+        <value type="int" value="5"/>
         <value type="int" value="9"/>
-        <value type="int" value="8"/>
       </property>
       <property name="position" type="string" value="p=8;x=96;y=1055"/>
       <property name="position-locked" type="bool" value="true"/>
@@ -46,53 +45,39 @@
       <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
       <property name="favorites" type="array">
         <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="org.manjaro.pamac.manager.desktop"/>
         <value type="string" value="xfce4-web-browser.desktop"/>
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="libreoffice-writer.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="org.xfce.ristretto.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="ulauncher.desktop"/>
         <value type="string" value="firefox.desktop"/>
-        <value type="string" value="spotify.desktop"/>
-        <value type="string" value="xfce-session-settings.desktop"/>
-        <value type="string" value="steam.desktop"/>
-        <value type="string" value="welcome.desktop"/>
-        <value type="string" value="yad-settings.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="org.manjaro.pamac.manager.desktop"/>
-        <value type="string" value="conky.desktop"/>
-        <value type="string" value="vim.desktop"/>
       </property>
-      <property name="show-button-icon" type="bool" value="true"/>
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="position-categories-alternate" type="bool" value="false"/>
-      <property name="position-categories-horizontal" type="bool" value="false"/>
-      <property name="position-profile-alternate" type="bool" value="false"/>
     </property>
     <property name="plugin-2" type="string" value="docklike"/>
     <property name="plugin-3" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="audacious;cantata;firefox.instance112504;firefox.instance114432;firefox.instance12121;firefox.instance12768;firefox.instance15644;firefox.instance17596;firefox.instance17887;firefox.instance1841;firefox.instance1926;firefox.instance21633;firefox.instance21715;firefox.instance2493;firefox.instance31308;firefox.instance32742;firefox.instance33972;firefox.instance40037;firefox.instance42416;firefox.instance6123;firefox.instance6278;firefox.instance80592;firefox.instance9405;firefox.instance98492;spotify"/>
-      <property name="known-players" type="string" value="firefox;spotify"/>
     </property>
     <property name="plugin-4" type="string" value="systray">
       <property name="hide-new-items" type="bool" value="false"/>
       <property name="icon-size" type="int" value="16"/>
       <property name="known-items" type="array">
-        <value type="string" value="steam"/>
         <value type="string" value="blueman"/>
+        <value type="string" value="steam"/>
         <value type="string" value="TelegramDesktop"/>
         <value type="string" value="ulauncher"/>
       </property>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “trion” active: trion (66%)"/>
-        <value type="string" value="wi-fi network connection “familiasilvagarcia2_5g” active: familiasilvagarcia2_5g (40%)"/>
-        <value type="string" value="wi-fi network connection “familiasilvagarcia2_5g” active: familiasilvagarcia2_5g (42%)"/>
-        <value type="string" value="wi-fi network connection “familiasilvagarcia2_5g” active: familiasilvagarcia2_5g (36%)"/>
-        <value type="string" value="wi-fi network connection “familiasilvagarcia2_5g” active: familiasilvagarcia2_5g (51%)"/>
+        <value type="string" value="steam"/>
         <value type="string" value="wi-fi network connection “familiasilvagarcia2_5g” active: familiasilvagarcia2_5g (48%)"/>
-        <value type="string" value="wi-fi network connection “familiasilvagarcia2_5g” active: familiasilvagarcia2_5g (50%)"/>
         <value type="string" value="thunar"/>
         <value type="string" value="ulauncher"/>
         <value type="string" value="xfce4-power-manager"/>
@@ -103,8 +88,13 @@
       <property name="single-row" type="bool" value="true"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
-      <property name="hidden-items" type="array">
-      </property>
+    </property>
+    <property name="plugin-5" type="string" value="clock">
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="show-seconds" type="bool" value="false"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-layout" type="uint" value="3"/>
     </property>
     <property name="plugin-6" type="string" value="power-manager-plugin"/>
     <property name="plugin-7" type="string" value="separator">
@@ -112,7 +102,5 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-9" type="string" value="notification-plugin"/>
-    <property name="plugin-8" type="string" value="showdesktop"/>
-    <property name="plugin-10" type="string" value="datetime"/>
   </property>
 </channel>
