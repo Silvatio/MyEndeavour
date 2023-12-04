@@ -1,0 +1,56 @@
+
+/* userChrome.css */
+
+/* Remove default background */
+#main-window {
+    background: none !important;
+  }
+  
+  /* Custom background color */
+  #nav-bar {
+    background-color: #000000 !important; /* Change to your desired background color */
+  }
+  
+  /* Neon effect for toolbar buttons */
+  .toolbarbutton-1 {
+    filter: drop-shadow(0 0 5px #00ff00) !important; /* Change color (#00ff00) as needed */
+  }
+  
+  /* Neon effect for active tab */
+  .tab-line {
+    background-color: #00ff00 !important; /* Change color (#00ff00) as needed */
+    height: 2px !important;
+  }
+  
+  /* Neon effect for inactive tabs */
+  .tabbrowser-tab:not([selected="true"]) {
+    filter: drop-shadow(0 0 5px #00ff00) !important; /* Change color (#00ff00) as needed */
+  }
+  
+  /* Neon effect for the close button on tabs */
+  .tab-close-button {
+    filter: drop-shadow(0 0 5px #ff0000) !important; /* Change color (#ff0000) as needed */
+  }
+  
+  /* Optional: Hide tab close buttons until hover */
+  .tabbrowser-tab:not(:hover) .tab-close-button {
+    display: none !important;
+  }
+  
+  /* Neon effect for the scrollbar */
+  scrollbar {
+    -moz-appearance: none !important;
+    width: 12px !important;
+  }
+  
+  scrollbar[orient="vertical"] {
+    background-color: #000000 !important; /* Change color (#000000) as needed */
+  }
+  
+  scrollbar thumb[orient="vertical"] {
+    background-color: #00ff00 !important; /* Change color (#00ff00) as needed */
+  }
+  
+  scrollbar thumb:hover[orient="vertical"] {
+    background-color: #00cc00 !important; /* Change color (#00cc00) as needed */
+  }

@@ -1,0 +1,9 @@
+[Default Applications]
+application/x-zerosize=code-oss.desktop
+application/x-trash=code-oss.desktop
+
+[Added Associations]
+application/x-zerosize=code-oss.desktop;
+application/xml=code-oss.desktop;
+application/x-trash=code-oss.desktop;
+text/calendar=libreoffice-writer.desktop;

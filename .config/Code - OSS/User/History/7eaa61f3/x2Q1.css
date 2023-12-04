@@ -1,0 +1,44 @@
+/* Remove default browser styles */
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+  
+  /* Set a background color for the browser */
+  browser {
+    background-color: #222 !important;
+  }
+  
+  /* Customize the tab bar */
+  tab {
+    background-color: #333 !important;
+    color: #fff !important;
+  }
+  
+  tab[selected="true"] {
+    background-color: #555 !important;
+  }
+  
+  /* Customize the toolbar */
+  toolbar {
+    background-color: #444 !important;
+  }
+  
+  /* Customize the URL bar */
+  urlbar {
+    background-color: #666 !important;
+    color: #fff !important;
+  }
+  
+  /* Customize the buttons */
+  toolbarbutton {
+    background-color: #666 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+  }
+  
+  /* Remove tab close buttons */
+  .tab-close-button {
+    display: none !important;
+  }
